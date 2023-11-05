@@ -19,6 +19,7 @@ import icon_tshirt from "/public/icon-tshirt.png";
 import icon_hoodie from "/public/icon-hoodie.png";
 import Settings from "./../../components/editorComponents/settings/page";
 import domtoimage from "dom-to-image";
+import Navbar from './../../components/navbar/page';
 
 export const EditingHome = createContext();
 
@@ -352,7 +353,10 @@ const EditingPage = () => {
   //cl
   // console.log(selectedObjectProps);
 
+
   return (
+    <>
+    <Navbar/>
     <div className=" editing-container container">
       <EditingHome.Provider
         value={{
@@ -537,6 +541,7 @@ const EditingPage = () => {
         </div>
       </EditingHome.Provider>
     </div>
+    </>
   );
 };
 
