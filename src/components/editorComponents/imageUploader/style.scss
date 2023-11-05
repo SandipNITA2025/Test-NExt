@@ -1,0 +1,18 @@
+.upload-container{
+    width: 100%;
+    padding: 10px;
+    input{
+        display: none;
+    }
+    .uploadButton{
+        border: 1px solid gray;
+        width: 100%;
+        padding:10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        justify-content: center;
+        background: #fff;
+    }
+}

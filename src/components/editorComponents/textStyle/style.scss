@@ -1,0 +1,37 @@
+.text-style-container {
+  display: flex !important;
+  width: 100%;
+  flex-wrap: wrap;
+
+  .top-buttons {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    gap: 5px;
+    button {
+      border: none;
+      font-size: 22px !important;
+      padding: 3px;
+    }
+    input {
+      padding: 0;
+    }
+  }
+  .down-buttons {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    gap: 5px;
+    width: 100%;
+    select {
+      flex: 1;
+      border: 1px solid gray;
+      padding: 8px;
+      border-radius: 4px;
+    }
+    input {
+      flex: 1;
+      width: 10px !important;
+    }
+  }
+}
